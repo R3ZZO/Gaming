@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Titre de Page</title>
+</head>
+<body>
+    <top>
+        <span class="iconSocial">
+            <p><i class="fab fa-twitter"></i></p>
+            <p><i class="fab fa-facebook"> </i></p>
+            <p><i class="fab fa-snapchat"></i></p>
+            <p><i class="fab fa-instagram"></i></p>
+        </span>
+        <span class="icon">Bienvenue sur "Greta Gaming"</span>
+        
+        <span class="icon"><button id="button"type="button" class="favoris"><i class="fas fa-thumbs-up"></i><a href="javascript:addfav()">Ajouter au Favoris</a> </button></span>
+       
+    </top>
+    <header>
+        <h1><img src="logo.png" alt="logo" class="logo"></h1>
+    <input id="searchbar" onkeyup="search_animal()" type="text"
+    name="search" placeholder="  Recherche...">
+        <p class="toppub"><img class="diaporama" src="https://www.yydevelopment.com/wp-content/uploads/2018/05/spy-tool-468x60-banner-example.gif" ></p>
+    </header>
+    
+    <nav>
+        <ul>
+            <button id="buttonNav" type="button"><a href="index.html" title="Accueil"><i class="fas fa-home"></i><span id="navTxt"> Accueil</span></a></button>
+            <button id="buttonNav" type="button"><a href="#troisieme" title="Accueil"><i class="fas fa-users"></i> La team</a></button>
+            <button id="buttonNav" type="button"><a href="#quatrieme" title="Accueil"><i class="fas fa-gamepad"></i> Jeux vidéos</a></button>
+            <button id="buttonNav" type="button"> <a href="#cinquieme" title="Accueil"><i class="fas fa-trophy"></i> Compétitions</a></button>
+            <button id="buttonNav" type="button"><a href="#septieme" title="Accueil"><i class="fas fa-info"></i> Information</a></button>
+            <button id="buttonNav" type="button"> <a href="#huitieme" title="Accueil"><i class="fas fa-address-book"></i> Contact</a></button>
+
+            <span id="iconShop"><button id="buttonNav2" type="button"> <a href="#quatrieme" title="Accueil"><i class="fas fa-shopping-cart"></i> </a></button></span>
+            <span id="iconShop"><button id="buttonNav4" type="button"> <a href="#quatrieme" title="Accueil"> <i class="fas fa-heart"></i> </a></button></span>
+            <span id="iconShop"><button id="buttonNav3" type="button"> <a href="#quatrieme" title="Accueil"><i class="fas fa-user"></i> </a></button></span>
+
+        </ul>
+    </nav>
+    <section class="principale">
+        <h2 class=principaleTxt><br>
+             Rejoins la team GRETA et inscrit toi !</h2>
+             <p><img src="img/perso.png" alt="perso" class="perso"></p>
+             <button id="buttonSlide" type="button"><a href="#" title="Inscription"><i class="far fa-check-circle"></i>
+              Inscription / Connexion</a></button>
+        <p class=principaleTxt></p>
+    </section>
+
+    <section class="secondaire" id="secondaire">
+        
+        <p class="pubTxt"> #GRETA <br>GAMING </p><span class="promoTxt">
+            -20% de promo avec le code "FREE20"</span>
+            <img src="img/pc.png" alt="pc" class="pc">
+    </section>
+
+    <section class="troisieme" id="troisieme">
+        <h2 class=troisiemeTxt>La Team</h2>
+        <span class="teamTXT"> La team "GRETA Gaming" est n°1 en Europe dans le Esport, classé sur de nombreux jeux elle à réussie à remporter l'ESWC 2022 organisé à Paris. Classé parmis les meilleurs équipes de gamer du monde, c'est la référence dans de nombreux jeux en tant que team professionnel.</span>
+
+        <section class="team">
+
+        <div class="bloc">
+            
+            <span class="teamBlocHeader">
+                <h3>Jean Charle</h3>
+            </span>
+            <span class="teamBlocPicture">
+                <img src="img/picture.jpeg" alt="picture" class="picture">
+            </span>
+            <span class="teamBlocContent">
+                <p>#Caces21</p>
+            </span>
+            <span class="teamBlocSocial">
+                <p><i class="fab fa-twitter"></i></p>
+                <p><i class="fab fa-facebook"> </i></p>
+                <p><i class="fab fa-snapchat"></i></p>
+                <p><i class="fab fa-instagram"></i></p>
+            </span>
+            <span class="teamBlocLike">
+                <i class="fas fa-thumbs-up like"></i>
+                <i class="fas fa-thumbs-down dislike"></i>
+            </span>
+            
+        </div>
+        <div class="bloc">
+            <span class="teamBlocHeader">
+                <h3>Philipe</h3>
+            </span>
+            <span class="teamBlocPicture">
+                <img src="img/picture2.jpg" alt="picture" class="picture">
+            </span>
+            <span class="teamBlocContent">
+                <p>#MustGoingTop</p>
+            </span>
+            <span class="teamBlocSocial">
+                <p><i class="fab fa-twitter"></i></p>
+                <p><i class="fab fa-facebook"> </i></p>
+                <p><i class="fab fa-snapchat"></i></p>
+                <p><i class="fab fa-instagram"></i></p>
+            </span>
+            <span class="teamBlocLike">
+                <i class="fas fa-thumbs-up like"></i>
+                <i class="fas fa-thumbs-down dislike"></i>
+            </span>
+        </div>
+        <div class="bloc">
+            <span class="teamBlocHeader">
+                <h3>Sandra</h3>
+            </span>
+            <span class="teamBlocPicture">
+                <img src="img/picture3.jpg" alt="picture" class="picture">
+            </span>
+            <span class="teamBlocContent">
+                <p>#Sandra_Boss</p>
+            </span>
+            <span class="teamBlocSocial">
+                <p><i class="fab fa-twitter"></i></p>
+                <p><i class="fab fa-facebook"> </i></p>
+                <p><i class="fab fa-snapchat"></i></p>
+                <p><i class="fab fa-instagram"></i></p>
+            </span>
+            <span class="teamBlocLike">
+                <i class="fas fa-thumbs-up like"></i>
+                <i class="fas fa-thumbs-down dislike"></i>
+            </span>
+
+            
+        </div>
+        <div class="bloc">
+            <span class="teamBlocHeader">
+                <h3>Adrien</h3>
+            </span>
+            <span class="teamBlocPicture">
+                <img src="img/picture4.jfif" alt="picture" class="picture">
+            </span>
+            <span class="teamBlocContent">
+                <p>#ADFR</p>
+            </span>
+            <span class="teamBlocSocial">
+                <p><i class="fab fa-twitter"></i></p>
+                <p><i class="fab fa-facebook"> </i></p>
+                <p><i class="fab fa-snapchat"></i></p>
+                <p><i class="fab fa-instagram"></i></p>
+            </span>
+            <span class="teamBlocLike">
+                <i class="fas fa-thumbs-up like"></i>
+                <i class="fas fa-thumbs-down dislike"></i>
+            </span>
+        </div>
+
+        <br>
+        
+    </section>
+
+
+    <section class="quatrieme" id="quatrieme">
+            <h2 class=quatriemeTxt>Les Jeux Vidéos</h2>
+            <span class="gameTXT"> Retrouve tous les jeux vidéos auquel joue notre team GRETA Gaming en 2022</span>
+    
+            <section class="game">
+    
+            <div class="blocGame">
+                
+                <span class="teamBlocHeader">
+                    <h3>Call of duty</h3>
+                </span>
+                <span class="teamBlocPicture">
+                    <img src="img/game1.png" alt="picture" class="picture">
+                </span>
+                <span class="teamBlocContent">
+                    <p>Site officiel | Blog</p>
+                </span>
+
+                
+            </div>
+            <div class="blocGame">
+                <span class="teamBlocHeader">
+                    <h3>Counter Strike</h3>
+                </span>
+                <span class="teamBlocPicture">
+                    <img src="img/game2.png" alt="picture" class="picture">
+                </span>
+                <span class="teamBlocContent">
+                    <p>Site officiel | Blog</p>
+                </span>
+
+            </div>
+            <div class="blocGame">
+                <span class="teamBlocHeader">
+                    <h3>Fortnite</h3>
+                </span>
+                <span class="teamBlocPicture">
+                    <img src="img/game3.png" alt="picture" class="picture">
+                </span>
+                <span class="teamBlocContent">
+                    <p>Site officiel | Blog</p>
+                </span>
+
+    
+                
+            </div>
+            <div class="blocGame">
+                <span class="teamBlocHeader">
+                    <h3>League Of Legends</h3>
+                </span>
+                <span class="teamBlocPicture">
+                    <img src="img/game4.png" alt="picture" class="picture">
+                </span>
+                <span class="teamBlocContent">
+                    <p>Site officiel | Blog</p>
+                </span>
+
+            </div>
+
+            <div class="blocGame">
+                <span class="teamBlocHeader">
+                    <h3>Rocket League</h3>
+                </span>
+                <span class="teamBlocPicture">
+                    <img src="img/game5.png" alt="picture" class="picture">
+                </span>
+                <span class="teamBlocContent">
+                    <p>Site officiel | Blog</p>
+                </span>
+
+            </div>
+
+            <div class="blocGame">
+                <span class="teamBlocHeader">
+                    <h3>Overwatch</h3>
+                </span>
+                <span class="teamBlocPicture">
+                    <img src="img/game6.png" alt="picture" class="picture">
+                </span>
+                <span class="teamBlocContent">
+                    <p>Site officiel | Blog</p>
+                </span>
+
+            </div>
+        </section>
+    
+
+
+    </section>
+
+
+    <section class="cinquieme" id="cinquieme">
+        <h2 class=troisiemeTxt>Les compétitions</h2>
+        <span class="esportTXT">Découvre toutes les compétitions de Esports auquel la GRETA Gaming participe en 2022</span>
+       <span class="blocEsport">
+        <img src="img/logo1.png" alt="picture" class="picture hovergame">
+        <img src="img/logo2.png" alt="picture" class="picture hovergame">
+        <img src="img/logo3.png" alt="picture" class="picture hovergame">
+        <img src="img/logo4.png" alt="picture" class="picture hovergame">
+        <img src="img/logo5.png" alt="picture" class="picture hovergame">
+        <img src="img/logo6.png" alt="picture" class="picture hovergame">
+        <img src="img/logo7.png" alt="picture" class="picture hovergame">
+    </span>
+<br>
+    <span class="esportTXT">Découvre tous les partenaires officiels de Esports de la GRETA Gaming depuis 2020/2021</span>
+    <span class="blocEsport">
+        <img src="img/partner1.png" alt="picture" class="partner">
+        <img src="img/partner2.png" alt="picture" class="partner">
+        <img src="img/partner3.png" alt="picture" class="partner">
+        <img src="img/partner4.png" alt="picture" class="partner">
+        <img src="img/partner5.png" alt="picture" class="partner">
+        <img src="img/partner6.png" alt="picture" class="partner">
+        <img src="img/partner7.png" alt="picture" class="partner">
+        <img src="img/partner8.png" alt="picture" class="partner">
+        <img src="img/partner9.png" alt="picture" class="partner">
+        <img src="img/partner10.png" alt="picture" class="partner">
+    </span>
+    </section>
+
+
+
+
+    
+    <section class="sixieme" id="sixieme">
+        
+
+            <img src="img/dragon.png" alt="pc" class="dragon">
+
+            <p class="pubTxt"> GRETA GAMING </p><span class="serieAtxt">
+                Récemment élu meilleur team de Serie A</span>
+    </section>
+
+    
+    <section class="septieme" id="septieme">
+        <h2 class=troisiemeTxt>Information</h2>
+        <span class="esportTXT">Retrouve l'ensemble des informations essentiel en rapport avec la team: GRETA Gaming </span>
+        
+        <span class="esportTXT">
+        <iframe id="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21464.30899991657!2d7.298873652452467!3d47.74190528754937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47919b245e575425%3A0x36823db61b5a93a1!2sGreta%20Sud%20Alsace!5e0!3m2!1sfr!2sfr!4v1643631531779!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <a href="https://search.google.com/local/reviews?placeid=ChIJJVRXXiSbkUcRoZNaG7Y9gjY&q=Greta+Sud+Alsace&hl=fr&gl=FR">
+<img src="img/googleavis.png" alt="pc" class="googleavis"></a>
+    
+    </span>
+
+    </section>
+
+
+    <section class="huitieme" id="huitieme">
+        <h2 class=quatriemeTxt>Contactez-nous</h2>
+        <span class="gameTXT"> Contactez-nous par email ou téléphone rapidement depuis notre site internet officiel</span>
+        <div class="contact">
+
+      
+
+        <div class="formulaire">
+            <form action="/ma-page-de-traitement" method="post">
+                <div>
+                 <label for="name">Nom :</label>
+                 <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="mail">e-mail :</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="msg">Message :</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Envoyer le message</button>
+            </div>
+         </form>
+        </div>
+
+        <div class="telephonie">
+            <img src="logo.png" alt="logo" class="logocontact">
+        <span class="nom"><b>Greta Sud Alsace</b></span>
+        <span class="info"> Centre de formation à Mulhouse </span>
+        <span class="adresse"><b>Adresse : </b>6 Rue Fredo Krumnov, 68200 Mulhouse  </span>
+        <span class="horaire"><b>Horaire :</b> Ouvert de 08:00 à 17:00 </span>
+        <span class="telephone"><b>Téléphone : </b>03 89 43 16 17</span>
+    </div>
+    </div>
+       
+    </section>
+
+
+
+
+
+    <footer><img src="logo.png" alt="logo" class="logofooter"> <br>
+
+            <button class="menubot" type="button"><a href="index.html" title="Accueil"><i class="fas fa-home"></i><span id="navTxt"> Accueil</span></a></button>
+            <button class="menubot"  type="button"><a href="#troisieme" title="Accueil"><i class="fas fa-users"></i> La team</a></button>
+            <button class="menubot"  type="button"><a href="#quatrieme" title="Accueil"><i class="fas fa-gamepad"></i> Jeux vidéos</a></button>
+            <button class="menubot"  type="button"> <a href="#cinquieme" title="Accueil"><i class="fas fa-trophy"></i> Compétitions</a></button>
+            <button class="menubot"  type="button"><a href="#septieme" title="Accueil"><i class="fas fa-info"></i> Information</a></button>
+            <button class="menubot" type="button"> <a href="#huitieme" title="Accueil"><i class="fas fa-address-book"></i> Contact</a></button>
+
+    <br>Copyright 2022 - All right Reserved by Rez0 | Mentions Legales & Cookies </footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,761 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+top{
+    background-image: linear-gradient(45deg, #363636 33.33%, #212121 33.33%, #212121 50%, #363636 50%, #363636 83.33%, #212121 83.33%, #212121 100%);
+    background-size: 8.49px 8.49px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+    font-family: 'Chathura', sans-serif; 
+}
+
+.iconSocial{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 7px;
+}
+
+.fab:hover{
+    transform: scale(1.5);
+}
+
+.fab{
+    padding-left: 7px;
+}
+
+#button{
+        box-shadow: rgba(15, 15, 15, 0.575) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        filter: drop-shadow(0 0 0.25rem rgb(0, 0, 0));
+        color: rgb(255, 255, 255);
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 7px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        font-family: 'Archivo', sans-serif;   
+}
+
+header{
+    background: linear-gradient(-45deg, #2769e4, #f7b6ee, #4b6fb3, #f0caeb);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    color: white;
+    padding-top:10px;
+    padding-bottom: 10px;
+    
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.favoris:hover{
+    background-image: linear-gradient(45deg, #353333fd 33.33%, #212121 33.33%, #212121 50%, #3a3939 50%, #363636 83.33%, #414040 83.33%, #424242 100%);
+border: white 1px solid;
+}
+
+.logo{
+    padding-top: 10px;
+    max-width: 310px;
+    max-height: 126px;
+}
+
+#searchbar{
+padding-right: 250px;
+padding-bottom: 15px;
+padding-top: 15px;
+background-color: rgb(39, 39, 39);
+border-radius: 5px;
+border: 1px rgb(0, 0, 0) solid;
+background-color: rgba(255, 255, 255, 0.082);
+
+}
+
+.toppub{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 60px;
+    width: 468px;
+    border: 1px  solid black;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 0.2em rgb(255, 255, 255), 0 0 0.2em rgb(19, 19, 19);
+    background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    rgb(39, 39, 39) 10px,
+    rgb(59, 59, 59) 20px);
+    font-family: 'chathura', sans-serif;  
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ffffff;
+ }
+
+ h2{
+     padding-top: 10px;
+     text-align: center;
+     font-size: 40px;
+ }
+
+ nav{
+    background-color: rgb(119, 119, 119);
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;  
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    background-image: linear-gradient(45deg, #363636 33.33%, #212121 33.33%, #212121 50%, #363636 50%, #363636 83.33%, #212121 83.33%, #212121 100%);
+    background-size: 8.49px 8.49px;
+    font-family: 'Archivo', sans-serif; 
+}
+
+
+#buttonNav{
+    box-shadow: rgba(15, 15, 15, 0.822) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.555) 10px 180px 36px 18px inset;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+    padding-right: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+#buttonNav:hover{
+    -webkit-box-shadow: -1px 1px 18px 10px #125BFF; 
+    box-shadow: -1px 1px 18px 10px #125BFF;
+    background-image: linear-gradient(45deg, #353333fd 33.33%, #212121 33.33%, #212121 50%, #3a3939 50%, #363636 83.33%, #414040 83.33%, #424242 100%);
+}
+
+#buttonNav2{
+    padding-top: 15px;
+    padding-bottom: 17px;
+    padding-left: 16px;
+    padding-right: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Archivo', sans-serif;
+    margin-left: 120px;
+    border-radius: 70%;
+    background-image: linear-gradient(45deg, #353333fd 33.33%, #212121 33.33%, #212121 50%, #3a3939 50%, #363636 83.33%, #414040 83.33%, #424242 100%);
+}
+
+#buttonNav2:hover{
+    -webkit-box-shadow: -1px 1px 18px 10px #125BFF; 
+    box-shadow: -1px 1px 18px 10px #125BFF;
+    background-image: linear-gradient(45deg, #353333fd 33.33%, #212121 33.33%, #212121 50%, #3a3939 50%, #363636 83.33%, #414040 83.33%, #424242 100%);
+
+}
+
+#buttonNav3{
+    padding-top: 14px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Archivo', sans-serif;
+    border-radius: 70%;
+    background-image: linear-gradient(45deg, #353333fd 33.33%, #212121 33.33%, #212121 50%, #3a3939 50%, #363636 83.33%, #414040 83.33%, #424242 100%);
+}
+
+#buttonNav3:hover{
+    -webkit-box-shadow: -1px 1px 18px 10px #125BFF; 
+    box-shadow: -1px 1px 18px 10px #125BFF;
+    background-image: linear-gradient(45deg, #353333fd 33.33%, #212121 33.33%, #212121 50%, #3a3939 50%, #363636 83.33%, #414040 83.33%, #424242 100%);
+
+}
+
+#buttonNav4{
+    padding-top: 14px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Archivo', sans-serif;
+    border-radius: 70%;
+    background-image: linear-gradient(45deg, #353333fd 33.33%, #212121 33.33%, #212121 50%, #3a3939 50%, #363636 83.33%, #414040 83.33%, #424242 100%);
+}
+
+#buttonNav4:hover{
+    -webkit-box-shadow: -1px 1px 18px 10px #125BFF; 
+    box-shadow: -1px 1px 18px 10px #125BFF;
+    background-image: linear-gradient(45deg, #353333fd 33.33%, #212121 33.33%, #212121 50%, #3a3939 50%, #363636 83.33%, #414040 83.33%, #424242 100%);
+
+}
+
+
+a{
+    list-style: none;
+    text-decoration:none;
+    color:floralwhite;
+    padding-right: 20px;
+}
+
+
+
+
+
+.principale{
+    width: 100%;
+    height: 800px;
+    background-image: url("../background.gif");
+    display: center;
+    text-align: center;
+    align-items: center;
+}
+
+.principaleTxt{
+    
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px -1px 7px rgba(0, 102, 255, 0.78);
+}
+
+#buttonSlide{
+    box-shadow: rgba(31, 30, 30, 0.603) 0px 30px 60px -12px inset, rgba(54, 54, 54, 0.425) 10px 180px 36px 18px inset;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    padding-left: 150px;
+    padding-right: 120px;
+    display: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Archivo', sans-serif;
+    margin-left: -5px; 
+    border-top: rgb(0, 0, 0) 1px solid;
+    border-left: 1px black solid;
+    border-right: 2px rgb(85, 85, 85) solid;
+    border-bottom: 2px solid rgb(85, 85, 85);
+    background: rgba(107, 107, 107, 0.363);
+    border-radius: 10px;
+}
+
+#buttonSlide:hover{
+    -webkit-box-shadow: -1px 1px 18px 10px #125BFF; 
+    box-shadow: -1px 1px 18px 10px #125BFF;
+    background-image: linear-gradient(45deg, #353333fd 33.33%, #212121 33.33%, #212121 50%, #3a3939 50%, #363636 83.33%, #414040 83.33%, #424242 100%);
+
+}
+
+.perso{
+
+    margin-bottom: -4px;
+    margin-right: 300px;
+}
+
+.secondaire{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(45deg, #363636 33.33%, #212121 33.33%, #212121 50%, #363636 50%, #363636 83.33%, #212121 83.33%, #212121 100%);
+    background-size: 8.49px 8.49px;
+    display: flex;
+    justify-content: space-between;   
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    -webkit-box-shadow: -1px 1px 18px 10px #125BFF; 
+    box-shadow: -1px 1px 18px 10px #125BFF;
+}
+
+.pubTxt{
+    font-size: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 100px;
+    color: white;
+    font-family: 'Sedgwick Ave', cursive;
+    font-weight: bold;
+    text-shadow: 3px -1px 7px rgba(0, 102, 255, 0.78);
+    padding-top: 7px;
+}
+
+.promoTxt{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Archivo', sans-serif;
+    text-shadow: 0px -1px 7px rgba(0, 102, 255, 0.78);
+    font-weight: bold;    
+}
+
+.back{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    margin-left:-50px;
+}
+
+
+
+.pc{
+   width: 500px;
+   height: 350px;
+   margin-top: -140px;  
+   margin-left: -20px;
+}
+
+
+
+.troisieme{
+    width: 100%;
+    height: 700px;
+    background: no-repeat url("../img/teamAddImg.png");
+}
+
+.bloc .teamBlocHeader .teamBlocContent .teamBlocPicture{ 
+    width: 600px;
+    height: 275px;
+
+    text-align: center;
+}
+
+.bloc{
+    border: 1px solid black;
+    margin-left: 50px;
+    background-image: linear-gradient(45deg, #363636 33.33%, #212121 33.33%, #212121 50%, #363636 50%, #363636 83.33%, #212121 83.33%, #212121 100%);
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    padding: 25px;
+    -webkit-box-shadow: -1px 1px 18px 10px #125BFF; 
+    box-shadow: -1px 1px 18px 10px #125BFF;
+}
+
+.bloc:hover{
+    transform: scale(1.2);
+}
+
+.team{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.teamBlocSocial{
+display: flex;
+justify-content: center;
+padding-top: 4px;
+}
+
+
+.like{
+    color: green;
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+.dislike{
+    color:red;
+    font-size: 27px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.like:hover{
+    transform: scale(1.3);
+}
+
+.dislike:hover{
+    transform: scale(1.2);
+}
+
+
+.picture{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 200px;
+    border: 2px rgb(170, 170, 170) dashed;
+    margin: 10px;
+}
+
+.troisiemeTxt{
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Archivo', sans-serif;
+    text-shadow: 0px -1px 7px rgba(0, 102, 255, 0.78);
+    font-weight: bold;    
+    margin-top: 50px;
+}
+
+.teamTXT{
+ 
+    display: flex;
+    text-align: center;
+    justify-content: justify;
+    align-items: center;
+
+    font-size: 20px; 
+    font-family: 'Archivo', sans-serif; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 510px;
+    padding-right: 510px;
+}
+
+
+
+.quatrieme{
+    width: 100%;
+    height: 700px;
+    margin-top: 55px;
+    background-image: linear-gradient(45deg, #363636 33.33%, #212121 33.33%, #212121 50%, #363636 50%, #363636 83.33%, #212121 83.33%, #212121 100%);
+    background-size: 8.49px 8.49px;
+}
+
+.quatriemeTxt{
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-top: 100px;
+    text-align: center;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Archivo', sans-serif;
+    text-shadow: 0px -1px 7px rgba(0, 102, 255, 0.78);
+    font-weight: bold;    
+    margin-top: 60px;
+}
+.gameTXT{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 20px; 
+    font-family: 'Archivo', sans-serif; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 600px;
+    padding-right: 510px;
+    color: white;
+}
+
+.game{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.blocGame:hover{
+    transform: scale(1.2);
+}
+
+.blocGame{
+    border: 1px solid black;
+    margin-left: 10px;
+    background-image: linear-gradient(45deg, #363636 33.33%, #212121 33.33%, #212121 50%, #363636 50%, #363636 83.33%, #212121 83.33%, #212121 100%);
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    padding: 25px;
+    -webkit-box-shadow: -1px 1px 18px 10px #125BFF; 
+    box-shadow: -1px 1px 18px 10px #125BFF;
+    text-align: center;
+}
+
+.cinquieme{
+    padding-bottom: 180px;
+}
+
+.blocEsport{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hovergame:hover{
+    transform: scale(1.2);
+}
+
+
+.sixieme{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(45deg, #363636 33.33%, #212121 33.33%, #212121 50%, #363636 50%, #363636 83.33%, #212121 83.33%, #212121 100%);
+    background-size: 8.49px 8.49px;
+    display: flex;
+    justify-content: space-between;   
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    -webkit-box-shadow: -1px 1px 18px 10px #125BFF; 
+    box-shadow: -1px 1px 18px 10px #125BFF;
+}
+
+.esportTXT{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 20px; 
+    font-family: 'Archivo', sans-serif; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 550px;
+    padding-right: 510px;
+    color: rgb(5, 5, 5);
+}
+
+.partner{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 200px;
+    border: 2px rgb(170, 170, 170) dashed;
+    margin: 10px;
+}
+
+.partner:hover{
+    transform: scale(1.2);
+}
+
+.dragon{
+        width: 500px;
+        height: 350px;
+        margin-top: -160px;  
+        margin-left: 20px;
+}
+
+.serieAtxt{
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-right: 20px;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    text-shadow: 3px -1px 7px rgba(0, 102, 255, 0.78);
+    padding-top: 7px;
+}
+
+.serieAtitle{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Archivo', sans-serif;
+    text-shadow: 0px -1px 7px rgba(0, 102, 255, 0.78);
+    font-weight: bold;    
+}
+
+#iframe{
+    border-radius: 20px;
+  
+}
+
+.septieme{
+    background: no-repeat url("../img/backgroundgame.png");
+}
+
+.huitieme{
+        width: 100%;
+        height: 700px;
+        background-image: linear-gradient(45deg, #363636 33.33%, #212121 33.33%, #212121 50%, #363636 50%, #363636 83.33%, #212121 83.33%, #212121 100%);
+        background-size: 8.49px 8.49px;
+}
+
+
+
+footer{
+    background-image: linear-gradient(45deg, #242424 33.33%, #212121 33.33%, #212121 50%, #1f1f1f 50%, #272727 83.33%, #212121 83.33%, #212121 100%);
+    background-size: 8.49px 8.49px;
+    display: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Chathura', sans-serif; 
+    border: 1px solid black;
+    -webkit-box-shadow: -1px 1px 18px 10px #125BFF; 
+    box-shadow: -1px 1px 18px 10px #125BFF;
+}
+
+.logofooter{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+      width: 300px;
+    box-sizing: border-box;
+      border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+  
+    height: 5em;
+  }
+  
+  .button {
+    padding-left: 90px; 
+  }
+  
+  button {
+    margin-left: .5em;
+    font-family: 'Chathura', sans-serif; 
+    font-size: 25px;
+    padding: 5px;
+  }
+
+  .button:hover{
+    -ms-transform: scale(1.1);
+-webkit-transform: scale(1.1); 
+transform: scale(1.1);
+
+}
+  
+  .formulaire{
+      color: white;
+      font-family: 'Chathura', sans-serif; 
+      font-size: 25px;
+  }
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telephonie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Archivo', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    margin-left: 10px;
+    padding-bottom: 12px;
+}
+
+.logocontact{
+    width: 224px;
+    height: 224px;
+
+    margin: 32px;
+}
+
+.logocontact:hover{
+    -webkit-box-shadow: -1px 1px 18px 10px #125BFF; 
+    box-shadow: -1px 1px 18px 10px #125BFF;
+    background-image: linear-gradient(45deg, #353333fd 33.33%, #212121 33.33%, #212121 50%, #3a3939 50%, #363636 83.33%, #414040 83.33%, #424242 100%);
+}
+
+.menubot{
+    color: white;
+    background-image: linear-gradient(45deg, #242424 33.33%, #212121 33.33%, #212121 50%, #1f1f1f 50%, #272727 83.33%, #212121 83.33%, #212121 100%);
+    font-family: 'Archivo', sans-serif;
+    border: 1px dashed white;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+
+.menubot:hover{
+        -webkit-box-shadow: -1px 1px 18px 10px #125BFF; 
+        box-shadow: -1px 1px 18px 10px #125BFF;
+        background-image: linear-gradient(45deg, #353333fd 33.33%, #212121 33.33%, #212121 50%, #3a3939 50%, #363636 83.33%, #414040 83.33%, #424242 100%);
+}
+
+.googleavis:hover{
+    transform: scale(1.1);
+    border: 1px solid black;
+    -webkit-box-shadow: -1px 1px 18px 10px #125BFF; 
+    box-shadow: -1px 1px 18px 10px #125BFF;
+}
+
+
+
+
+
